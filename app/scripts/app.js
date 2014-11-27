@@ -11,7 +11,7 @@ define(['animation_manager', 'dispatch_app'], function (AnimationManager, Dispat
     return {
       init: function () {
         this.pubnub = PUBNUB.init({
-          subscribe_key: 'sub-c-4b7887ee-ced1-11e2-ad99-02ee2ddab7fe'
+          subscribe_key: 'sub-c-ca807c1a-7388-11e4-b043-02ee2ddab7fe'
         });
         this.buses = {};
         this.listenForBusUpdates();
