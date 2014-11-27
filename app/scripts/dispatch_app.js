@@ -18,8 +18,8 @@ define([], function () {
   return {
     initialize: function () {
       this.pubnub = PUBNUB.init({
-        subscribe_key: 'sub-c-4affa82e-ced1-11e2-b70f-02ee2ddab7fe',
-        publish_key: 'pub-c-14db8853-100c-4fd5-b901-be3e8ab23aea'
+        subscribe_key: 'sub-c-ca807c1a-7388-11e4-b043-02ee2ddab7fe',
+        publish_key: 'pub-c-5562f280-337e-4642-9924-5ea28539c2a3'
       });
       this.uuid = PUBNUB.uuid();
 
@@ -33,7 +33,7 @@ define([], function () {
 
       var self = this;
       this.pubnub.subscribe({
-        channel: this.uuid,
+        channel: this.ELUX Reservations,
         message: function (message) {
           self.onDispatchRequested();
         }
